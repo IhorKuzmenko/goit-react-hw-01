@@ -1,0 +1,25 @@
+table {
+  border: 1px solid #e4e9f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerCol {
+  padding: 15px 50px;
+  background-color: aqua;
+  border: 1px solid gray;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.row:nth-child(even) {
+  background-color: gray;
+}
+
+.col {
+  padding: 15px 50px;
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px solid gray;
+  font-size: 24px;
+}
